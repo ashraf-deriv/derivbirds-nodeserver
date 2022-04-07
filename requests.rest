@@ -1,0 +1,30 @@
+GET http://localhost:3027/api/user
+//Authorization: Bearer a8b0d46803555151326d339aed83ab585e1e79ee96e7e143685130d0a348e7e543e2548f25bad03bad0c5eabb50bc8caaf6fec301b1f05e38bfbfe90725c90d3
+###
+
+POST http://localhost:3027/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Binshidha k"
+}
+
+
+###
+GET http://localhost:3027/api/user/5dff45aef231a43d88b4007e
+
+
+###
+
+POST http://localhost:3027/api/user/add
+content-type: application/json
+
+{
+    "name": "Lio messi122",
+    "email": "leos@gmail22.com",
+    "password":"leo1234"
+}
+
+###
+
+DELETE http://localhost:3027/api/user/5e115a95fa8b8f61d0bf1584
